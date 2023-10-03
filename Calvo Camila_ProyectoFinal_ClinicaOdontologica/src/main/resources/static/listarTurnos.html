@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de turnos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="img/logoDiente.png" alt="Logo de la Clínica Odontológica" width="40" height="40" class="d-inline-block ">
+      Clínica Odontológica
+    </a>    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  </div>
+  <a class="nav-link active" aria-current="page" href="index.html"><button>Volver al Inicio</button></a>
+</nav>
+
+<!--TITULO, BOTON Y CUADRO-->
+<body>
+<div class="container mt-3" id="div_turno_table">
+  <h2>Lista de turnos</h2>
+  <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#turnoModal">
+    Agregar Turno
+  </button>
+  <table id="turnoTable" class="table" style="margin-top: 10px">
+    <thead>
+    <tr>
+      <th>Id</th>
+      <th>Fecha</th>
+      <th>Paciente</th>
+      <th>Odontologo</th>
+      <th>Eliminar</th>
+    </tr>
+    </thead>
+    <tbody id="turnoTableBody">
+    </tbody>
+  </table>
+</div>
+<!--
+ -----------------------Form para un futuro Update-----------------------
+<div class="row">
+  <div class="col-sm-9" style="display: none; margin-left: 20px; padding:10px; border-radius:3px"
+       id="div_turno_updating">
+    <form id="update_turno_form">
+      <div class="form-group">
+        <label >Id:</label>
+        <input type="text" class="form-control" id="turno_id" readonly>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="fechaTurno1">Fecha Turno:</label>
+        <input type="Date" class="form-control" id="fechaTurno1"
+               name="fechaTurno1" required></input>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="idPaciente1">Paciente id:</label>
+        <input type="text" class="form-control" id="idPaciente1"
+               placeholder="Ingrese el Id del Paciente"
+               name="idPaciente1" required></input>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="idOdontologo1">Odontologo id:</label>
+        <input type="text" class="form-control" id="idOdontologo1"
+               placeholder="Ingrese el Id del Odontólogo"
+               name="idOdontologo1" required></input>
+      </div>
+      <button type="submit" class="btn btn-primary">Modificar</button>
+    </form>
+    <div id="response" style="display:none; margin:10px">
+    </div>
+  </div>
+</div>-->
+
+<!-- Modal -->
+<div class="modal fade" id="turnoModal" tabindex="-1" role="dialog" aria-labelledby="turnoModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-body">
+          <form id="add_new_turno">
+            <h5 class="modal-title" id="agregarModalLabel">Agregar Turno</h5>
+            <div class="mb-3">
+              <label for="fechaTurno" class="form-label">Fecha Turno:</label>
+              <input type="date" class="form-control" id="fechaTurno">
+            </div>
+            <div class="mb-3"style="margin-top:10px">
+              <label for="idPaciente" class="form-label">ID del Paciente:</label>
+              <input type="text" class="form-control" id="idPaciente">
+            </div>
+            <div class="mb-3">
+              <label for="idOdontologo" class="form-label">ID del Odontologo:</label>
+              <input type="text" class="form-control" id="idOdontologo">
+            </div>
+            <div class="modalFooter">
+              <button type="submit" class="btn btn-primary">Registrar</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="./js/TurnoDELETE.js" defer></script>
+<script type="text/javascript" src="./js/TurnoGET.js" defer></script>
+<script type="text/javascript" src="./js/TurnoPOST.js" defer></script>
+<script type="text/javascript" src="./js/TurnoUPDATE.js" defer></script>
+
+</body>
+</html>

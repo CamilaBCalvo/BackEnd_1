@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de pacientes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="img/logoDiente.png" alt="Logo de la Clínica Odontológica" width="30" height="30"
+           class="d-inline-block align-top">
+      Clínica Odontológica
+    </a>    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  </div>
+  <a class="nav-link active" aria-current="page" href="/index.html"><button>Volver al Inicio</button></a>
+</nav>
+
+<!--TITULO, BOTON Y CUADRO-->
+<div class="container mt-3" id="div_paciente_table">
+  <h2>Lista de pacientes</h2>
+  <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#pacienteModal">
+    Agregar Paciente
+  </button>
+  <table id="pacienteTable" class="table table-striped" style="margin-top: 10px" >
+    <thead>
+    <tr>
+      <th>Id</th>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Documento</th>
+      <th>Fecha Ingreso</th>
+      <th>Email</th>
+      <th>Editar</th>
+      <th>Eliminar</th>
+    </tr>
+    </thead>
+    <tbody id="pacienteTableBody">
+    </tbody>
+  </table>
+</div>
+
+<!-- Form del Update -->
+<div class="row">
+  <div class="col-sm-9" style="display: none; margin-left: 20px; padding:10px; border-radius:3px"
+       id="div_paciente_updating">
+    <form id="update_paciente_form">
+      <div class="form-group">
+        <label >Id:</label>
+        <input type="text" class="form-control" id="paciente_id" readonly>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="nombre1">Nombre:</label>
+        <input type="text" class="form-control" id="nombre1"
+               placeholder="Ingrese el Nombre"
+               name="nombre" required></input>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="apellido1">Apellido:</label>
+        <input type="text" class="form-control" id="apellido1"
+               placeholder="Ingrese el Apellido"
+               name="apellido" required></input>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="documento1">Documento:</label>
+        <input type="text" class="form-control" id="documento1"
+               placeholder="Ingrese el DNI"
+               name="documento" required></input>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="fechaDeIngreso1">Fecha Ingreso:</label>
+        <input type="date" class="form-control" id="fechaDeIngreso1"
+               placeholder="Ingrese la Fecha de Ingreso"
+               name="FechaDeIngreso" required></input>
+      </div>
+      <div class="form-group">
+        <label class="control-label" >Domicilio</label>
+        <input type="text" class="d-none" id="domicilio_id1"></input>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="calle1">Calle:</label>
+        <input type="text" class="form-control" id="calle1"
+               placeholder="Ingrese la Calle"
+               name="Calle" required></input>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="numero1">Numero:</label>
+        <input type="text" class="form-control" id="numero1"
+               placeholder="Ingrese la Calle"
+               name="Numero" required></input>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="localidad1">Localidad:</label>
+        <input type="text" class="form-control" id="localidad1"
+               placeholder="Ingrese la Localidad"
+               name="Localidad" required></input>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="provincia1">Provincia:</label>
+        <input type="text" class="form-control" id="provincia1"
+               placeholder="Ingrese la Provincia"
+               name="Provincia" required></input>
+      </div>
+      <div class="form-group">
+        <label class="control-label" for="email1">Email:</label>
+        <input type="text" class="form-control" id="email1"
+               placeholder="Ingrese el email"
+               name="Email" required></input>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Modificar</button>
+    </form>
+    <div id="response" style="display:none; margin:10px">
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="pacienteModal" tabindex="-1" role="dialog" aria-labelledby="pacienteModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-body">
+          <form id="add_new_paciente">
+            <h5 class="modal-title" id="agregarModalLabel">Agregar Paciente</h5>
+            <div class="mb-3"style="margin-top:10px">
+              <label for="nombre" class="form-label">Nombre:</label>
+              <input type="text" class="form-control" id="nombre"
+                     placeholder="Ingrese el Nombre" name="nombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido:</label>
+              <input type="text" class="form-control" id="apellido" placeholder="Ingrese el Apellido">
+            </div>
+            <div class="mb-3">
+              <label for="documento" class="form-label">DNI:</label>
+              <input type="text" class="form-control" id="documento" placeholder="Ingrese el documento">
+            </div>
+            <div class="mb-3">
+              <label for="fechaDeIngreso" class="form-label">Fecha de Ingreso:</label>
+              <input type="date" class="form-control" id="fechaDeIngreso" placeholder="Ingrese la Fecha de Ingreso">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Domicilio:</label>
+              <input type="text" class="d-none" id="domicilio_id"></input>
+            </div>
+            <div class="mb-3">
+              <label for="calle" class="form-label">Calle:</label>
+              <input type="text" class="form-control" id="calle" placeholder="Ingrese la Calle">
+            </div>
+            <div class="mb-3">
+              <label for="numero" class="form-label">Numero:</label>
+              <input type="text" class="form-control" id="numero" placeholder="Ingrese la Altura de la calle">
+            </div>
+            <div class="mb-3">
+              <label for="localidad" class="form-label">Localidad:</label>
+              <input type="text" class="form-control" id="localidad" placeholder="Ingrese la Localidad">
+            </div>
+            <div class="mb-3">
+              <label for="provincia" class="form-label">Provincia:</label>
+              <input type="text" class="form-control" id="provincia" placeholder="Ingrese la Provincia">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="text" class="form-control" id="email" placeholder="Ingrese el Email">
+            </div>
+            <div class="modalFooter">
+              <button type="submit" class="btn btn-success"
+                      id="btn-add-new-premio">Registrar</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="./js/PacienteGET.js" defer></script>
+<script type="text/javascript" src="./js/PacienteDELETE.js" defer></script>
+<script type="text/javascript" src="./js/PacientePOST.js" defer></script>
+<script type="text/javascript" src="./js/PacienteUPDATE.js" defer></script>
+</body>
+</html>

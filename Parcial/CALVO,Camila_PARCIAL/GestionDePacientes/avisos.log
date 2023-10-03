@@ -1,0 +1,230 @@
+[2023-03-05 20:28:48] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:28:48] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:28:48] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:28:48] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:28:48] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:28:48] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:28:48] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:31:26] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:31:27] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:31:27] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:31:27] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:31:27] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:31:27] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:31:27] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:31:27] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:31:27] [ INFO ] [PacienteDaoH2:118] retornando paciente
+[2023-03-05 20:31:27] [ INFO ] [DomicilioDaoH2:62] Domicilio de id 1 eliminado
+[2023-03-05 20:31:27] [ INFO ] [PacienteDaoH2:88] Se elimino paciente de id 1
+[2023-03-05 20:32:34] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:32:34] [ ERROR] [DBConnectionH2:33] La re pifiaste
+[2023-03-05 20:32:34] [ ERROR] [PacienteDaoH2:62] No se pudo crear paciente
+[2023-03-05 20:32:34] [ ERROR] [PacienteDaoH2:62] No se pudo crear paciente
+[2023-03-05 20:32:34] [ ERROR] [PacienteDaoH2:62] No se pudo crear paciente
+[2023-03-05 20:32:34] [ ERROR] [PacienteDaoH2:91] No se pudo eliminar al usuario de id 1
+[2023-03-05 20:32:34] [ ERROR] [PacienteDaoH2:62] No se pudo crear paciente
+[2023-03-05 20:32:40] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:32:40] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:32:40] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:32:40] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:32:40] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:32:40] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:32:40] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:32:40] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:32:40] [ INFO ] [PacienteDaoH2:118] retornando paciente
+[2023-03-05 20:32:40] [ INFO ] [DomicilioDaoH2:62] Domicilio de id 1 eliminado
+[2023-03-05 20:32:40] [ INFO ] [PacienteDaoH2:88] Se elimino paciente de id 1
+[2023-03-05 20:32:40] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:32:40] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:33:33] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:33:34] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:33:34] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:33:34] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:33:34] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:33:34] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:33:34] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:33:34] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:33:34] [ INFO ] [PacienteDaoH2:118] retornando paciente
+[2023-03-05 20:33:34] [ INFO ] [DomicilioDaoH2:62] Domicilio de id 1 eliminado
+[2023-03-05 20:33:34] [ INFO ] [PacienteDaoH2:88] Se elimino paciente de id 1
+[2023-03-05 20:33:34] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:33:34] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:33:34] [ INFO ] [PacienteDaoH2:118] retornando paciente
+[2023-03-05 20:34:35] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:34:35] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:34:35] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:34:35] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:34:35] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:34:35] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:34:35] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:34:36] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:34:36] [ INFO ] [PacienteDaoH2:118] retornando paciente
+[2023-03-05 20:34:36] [ INFO ] [DomicilioDaoH2:62] Domicilio de id 1 eliminado
+[2023-03-05 20:34:36] [ INFO ] [PacienteDaoH2:88] Se elimino paciente de id 1
+[2023-03-05 20:34:36] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:34:36] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:34:36] [ INFO ] [PacienteDaoH2:118] retornando paciente
+[2023-03-05 20:35:20] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:35:20] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:35:20] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:35:20] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:35:20] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:35:20] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:35:20] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:35:20] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:35:20] [ INFO ] [PacienteDaoH2:118] retornando paciente
+[2023-03-05 20:35:20] [ INFO ] [DomicilioDaoH2:62] Domicilio de id 1 eliminado
+[2023-03-05 20:35:20] [ INFO ] [PacienteDaoH2:88] Se elimino paciente de id 1
+[2023-03-05 20:35:20] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:35:20] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:35:20] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:35:20] [ INFO ] [PacienteDaoH2:118] retornando paciente
+[2023-03-05 20:36:39] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:36:39] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:36:39] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:36:39] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:36:39] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:36:39] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:36:39] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:36:39] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:36:39] [ INFO ] [PacienteDaoH2:118] retornando paciente
+[2023-03-05 20:36:39] [ INFO ] [DomicilioDaoH2:62] Domicilio de id 1 eliminado
+[2023-03-05 20:36:39] [ INFO ] [PacienteDaoH2:88] Se elimino paciente de id 1
+[2023-03-05 20:36:39] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:36:39] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:36:39] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:36:39] [ INFO ] [PacienteDaoH2:118] retornando paciente
+[2023-03-05 20:36:39] [ ERROR] [DomicilioDaoH2:124] No se pudo modificar
+[2023-03-05 20:36:39] [ INFO ] [PacienteDaoH2:148] Se modifico al paciente
+[2023-03-05 20:37:18] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:37:18] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:37:18] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:37:18] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:37:18] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:37:18] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:37:18] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:37:18] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:37:18] [ INFO ] [PacienteDaoH2:118] retornando paciente
+[2023-03-05 20:37:18] [ INFO ] [DomicilioDaoH2:62] Domicilio de id 1 eliminado
+[2023-03-05 20:37:18] [ INFO ] [PacienteDaoH2:88] Se elimino paciente de id 1
+[2023-03-05 20:37:18] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:37:18] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:37:18] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:37:18] [ INFO ] [PacienteDaoH2:118] retornando paciente
+[2023-03-05 20:37:18] [ INFO ] [DomicilioDaoH2:121] Datos actualizados del domicilio
+[2023-03-05 20:37:18] [ INFO ] [PacienteDaoH2:148] Se modifico al paciente
+[2023-03-05 20:38:05] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:38:05] [ ERROR] [DBConnectionH2:33] La re pifiaste
+[2023-03-05 20:38:05] [ ERROR] [PacienteDaoH2:62] No se pudo crear paciente
+[2023-03-05 20:38:05] [ ERROR] [PacienteDaoH2:62] No se pudo crear paciente
+[2023-03-05 20:38:05] [ ERROR] [PacienteDaoH2:62] No se pudo crear paciente
+[2023-03-05 20:38:05] [ ERROR] [PacienteDaoH2:91] No se pudo eliminar al usuario de id 1
+[2023-03-05 20:38:05] [ ERROR] [PacienteDaoH2:62] No se pudo crear paciente
+[2023-03-05 20:38:05] [ ERROR] [PacienteDaoH2:120] No hay paciente
+[2023-03-05 20:38:05] [ ERROR] [PacienteDaoH2:151] No se puede modificar al paciente
+[2023-03-05 20:38:05] [ ERROR] [PacienteDaoH2:181] No hay lista
+[2023-03-05 20:38:16] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:38:16] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:38:16] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:38:16] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:38:16] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:38:16] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:38:16] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:38:16] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:38:16] [ INFO ] [PacienteDaoH2:118] retornando paciente
+[2023-03-05 20:38:16] [ INFO ] [DomicilioDaoH2:62] Domicilio de id 1 eliminado
+[2023-03-05 20:38:16] [ INFO ] [PacienteDaoH2:88] Se elimino paciente de id 1
+[2023-03-05 20:38:16] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:38:16] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:38:16] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:38:16] [ INFO ] [PacienteDaoH2:118] retornando paciente
+[2023-03-05 20:38:16] [ INFO ] [DomicilioDaoH2:121] Datos actualizados del domicilio
+[2023-03-05 20:38:16] [ INFO ] [PacienteDaoH2:148] Se modifico al paciente
+[2023-03-05 20:38:16] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:38:16] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:38:16] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:38:16] [ INFO ] [PacienteDaoH2:179] retornando lista completa
+[2023-03-05 20:45:41] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:45:41] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:45:41] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:46:13] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:46:13] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:46:13] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:46:13] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:46:13] [ INFO ] [PacienteDaoH2:179] retornando lista completa
+[2023-03-05 20:46:43] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:46:44] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:46:44] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:46:44] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:46:44] [ INFO ] [PacienteDaoH2:179] retornando lista completa
+[2023-03-05 20:46:59] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:46:59] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:46:59] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:46:59] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:46:59] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:46:59] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:46:59] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:46:59] [ INFO ] [PacienteDaoH2:179] retornando lista completa
+[2023-03-05 20:49:54] [ INFO ] [DBConnectionH2:22] Creando tablas
+[2023-03-05 20:49:54] [ INFO ] [DomicilioDaoH2:39] Domicilio agregado
+[2023-03-05 20:49:54] [ INFO ] [PacienteDaoH2:59] Se creo paciente
+[2023-03-05 20:49:54] [ INFO ] [DomicilioDaoH2:91] Retornando domicilio
+[2023-03-05 20:49:54] [ INFO ] [PacienteDaoH2:118] retornando paciente
+[2023-03-05 20:49:54] [ INFO ] [DomicilioDaoH2:62] Domicilio de id 1 eliminado
+[2023-03-05 20:49:54] [ INFO ] [PacienteDaoH2:88] Se elimino paciente de id 1
+[2023-03-05 20:49:54] [ INFO ] [PacienteDaoH2:179] retornando lista completa
+[2023-03-06 19:46:23] [ INFO ] [DBConnectionH2:22] se estan creando las tablas
+[2023-03-06 19:46:24] [ ERROR] [OdontologoDaoH2:30] no pudiste crear odontologo
+[2023-03-06 19:46:24] [ ERROR] [OdontologoDaoH2:30] no pudiste crear odontologo
+[2023-03-06 19:46:24] [ ERROR] [OdontologoDaoH2:30] no pudiste crear odontologo
+[2023-03-06 19:46:24] [ ERROR] [OdontologoDaoH2:30] no pudiste crear odontologo
+[2023-03-06 19:46:24] [ ERROR] [OdontologoDaoH2:30] no pudiste crear odontologo
+[2023-03-06 19:47:41] [ INFO ] [DBConnectionH2:22] se estan creando las tablas
+[2023-03-06 19:47:43] [ ERROR] [OdontologoDaoH2:30] no pudiste crear odontologo
+[2023-03-06 19:47:43] [ ERROR] [OdontologoDaoH2:30] no pudiste crear odontologo
+[2023-03-06 19:49:23] [ INFO ] [DBConnectionH2:22] se estan creando las tablas
+[2023-03-06 19:49:24] [ ERROR] [OdontologoDaoH2:33] no pudiste crear odontologo
+[2023-03-06 19:49:24] [ ERROR] [OdontologoDaoH2:33] no pudiste crear odontologo
+[2023-03-06 19:49:25] [ ERROR] [OdontologoDaoH2:76] No hay lista
+[2023-03-06 19:49:43] [ INFO ] [DBConnectionH2:22] se estan creando las tablas
+[2023-03-06 19:49:44] [ INFO ] [DomicilioDaoH2:39] se agrego el domicilio
+[2023-03-06 19:49:44] [ INFO ] [PacienteDaoH2:42] se creo nuevo paciente
+[2023-03-06 19:49:44] [ INFO ] [DomicilioDaoH2:39] se agrego el domicilio
+[2023-03-06 19:49:44] [ INFO ] [PacienteDaoH2:42] se creo nuevo paciente
+[2023-03-06 19:49:44] [ INFO ] [DomicilioDaoH2:39] se agrego el domicilio
+[2023-03-06 19:49:44] [ INFO ] [PacienteDaoH2:42] se creo nuevo paciente
+[2023-03-06 19:49:45] [ INFO ] [DomicilioDaoH2:91] devuelve domicilio
+[2023-03-06 19:49:45] [ INFO ] [PacienteDaoH2:101] devuelve paciente
+[2023-03-06 19:49:45] [ INFO ] [DomicilioDaoH2:62] el domicilio del id: 1 es eliminado
+[2023-03-06 19:49:45] [ INFO ] [PacienteDaoH2:71] se elimino el paciente del id 1
+[2023-03-06 19:49:45] [ INFO ] [DomicilioDaoH2:39] se agrego el domicilio
+[2023-03-06 19:49:45] [ INFO ] [PacienteDaoH2:42] se creo nuevo paciente
+[2023-03-06 19:49:45] [ INFO ] [DomicilioDaoH2:91] devuelve domicilio
+[2023-03-06 19:49:45] [ INFO ] [PacienteDaoH2:101] devuelve paciente
+[2023-03-06 19:49:45] [ INFO ] [DomicilioDaoH2:121] actualizaste el domicilio
+[2023-03-06 19:49:45] [ INFO ] [PacienteDaoH2:131] se edito al paciente
+[2023-03-06 19:49:45] [ INFO ] [DomicilioDaoH2:91] devuelve domicilio
+[2023-03-06 19:49:45] [ INFO ] [DomicilioDaoH2:91] devuelve domicilio
+[2023-03-06 19:49:45] [ INFO ] [DomicilioDaoH2:91] devuelve domicilio
+[2023-03-06 19:49:45] [ INFO ] [PacienteDaoH2:162] devuelve lista completa
+[2023-03-06 20:18:25] [ INFO ] [DBConnectionH2:25] se estan creando tablas
+[2023-03-06 20:20:21] [ INFO ] [DBConnectionH2:25] se estan creando tablas
+[2023-03-06 20:20:23] [ INFO ] [DomicilioDaoH2:39] se agrego el domicilio
+[2023-03-06 20:20:23] [ INFO ] [PacienteDaoH2:42] se creo nuevo paciente
+[2023-03-06 20:20:23] [ INFO ] [DomicilioDaoH2:39] se agrego el domicilio
+[2023-03-06 20:20:23] [ INFO ] [PacienteDaoH2:42] se creo nuevo paciente
+[2023-03-06 20:20:23] [ INFO ] [DomicilioDaoH2:39] se agrego el domicilio
+[2023-03-06 20:20:23] [ INFO ] [PacienteDaoH2:42] se creo nuevo paciente
+[2023-03-06 20:20:23] [ INFO ] [DomicilioDaoH2:91] devuelve domicilio
+[2023-03-06 20:20:23] [ INFO ] [PacienteDaoH2:101] devuelve paciente
+[2023-03-06 20:20:23] [ INFO ] [DomicilioDaoH2:62] el domicilio del id: 1 es eliminado
+[2023-03-06 20:20:23] [ INFO ] [PacienteDaoH2:71] se elimino el paciente del id 1
+[2023-03-06 20:20:23] [ INFO ] [DomicilioDaoH2:39] se agrego el domicilio
+[2023-03-06 20:20:23] [ INFO ] [PacienteDaoH2:42] se creo nuevo paciente
+[2023-03-06 20:20:23] [ INFO ] [PacienteDaoH2:101] devuelve paciente
+[2023-03-06 20:20:23] [ INFO ] [DomicilioDaoH2:121] actualizaste el domicilio
+[2023-03-06 20:20:23] [ INFO ] [PacienteDaoH2:131] se edito al paciente
+[2023-03-06 20:20:23] [ INFO ] [DomicilioDaoH2:91] devuelve domicilio
+[2023-03-06 20:20:23] [ INFO ] [DomicilioDaoH2:91] devuelve domicilio
+[2023-03-06 20:20:23] [ INFO ] [DomicilioDaoH2:91] devuelve domicilio
+[2023-03-06 20:20:23] [ INFO ] [PacienteDaoH2:162] devuelve lista completa
